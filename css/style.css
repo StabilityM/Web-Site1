@@ -1,7 +1,83 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url(/img/10.jpg!d) no-repeat center;
+  background-size: cover;
+}
+img {
+  background-size: 100%, 100%;
+}
 .hidden {
   display: none;
 }
-h2 {
-  font-size: 50px;
+#clock {
+  color: rgba(255, 255, 255);
+
+  font-family: "Tilt Neon", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+#clock span:first-child {
+  font-size: 40px;
+  text-align: rights;
+}
+#clock span:last-child {
+  font-size: 70px;
+}
+#weather {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
   margin: 0;
+  text-align: right;
+  font-family: "Tilt Neon", sans-serif;
+}
+#quote {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255, 0.7);
+  font-family: "Tilt Neon", sans-serif;
+}
+#login-form {
+  margin-bottom: 100px;
+  margin-top: 20px;
+  text-align: center;
+}
+#greeting {
+  margin-top: 20px;
+  font-size: 70px;
+  text-align: center;
+  color: rgba(0, 225, 120, 0.666);
+}
+#submit-box {
+  font-size: 25px;
+  font-family: "Tilt Neon", sans-serif;
+  color: rgba(41, 82, 11, 0.701);
+  background-color: rgba(196, 255, 159, 0.73);
+  width: 100px;
+  height: 50px;
+}
+#text-box {
+  font-size: 25px;
+  font-family: "Tilt Neon", sans-serif;
+  color: rgb(41, 82, 11);
+  background-color: rgba(196, 255, 159, 0.73);
+  width: 250px;
+  height: 44px;
+}
+#todo-form {
+  text-align: center;
+}
+#todo-box {
+  font-size: 25px;
+  font-family: "Tilt Neon", sans-serif;
+  color: rgb(41, 82, 11);
+  background-color: rgba(196, 255, 159, 0.73);
+  width: 325px;
+  height: 44px;
+}
+#todo-list {
+  font-size: 30px;
+  text-align: left;
+  color: rgb(209, 254, 173);
+  margin-bottom: 450px;
 }

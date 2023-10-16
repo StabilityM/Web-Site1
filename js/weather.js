@@ -12,8 +12,8 @@ function onGeoOk(position) {
         "#weather span:first-child"
       );
       const weatherCity = document.querySelector("#weather span:last-child");
+      weatherContainer.innerText = `Temp : ${data.main.temp}ºC | Weather : ${data.weather[0].main} | City :`;
       weatherCity.innerText = data.name;
-      weatherContainer.innerText = `${data.weather[0].main} / ${data.main.temp}`;
     });
 }
 
